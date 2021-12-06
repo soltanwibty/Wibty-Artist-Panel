@@ -10,8 +10,7 @@
     border: 1px solid #b4b4b4;
 }
 
-@media screen and (max-width: 1200px) {
-    .wibty-brand-text {
-        display: none;
-    }
+.most-listened-music-image {
+    width: 50px;
+    width: 50px;
 }
