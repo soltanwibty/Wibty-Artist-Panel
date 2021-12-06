@@ -1,0 +1,173 @@
+<div class="content-body" style="min-height: 1140px;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Musiqidə Düzəliş</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="basic-form">
+                            <form>
+
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <div
+                                            class="media d-sm-flex d-block text-center text-sm-left pb-4 mb-4 border-bottom">
+                                            <img alt="image" class="rounded mr-sm-4 mr-0" width="130"
+                                                src="/images/profile/6.jpg">
+                                            <div class="row media-body align-items-center">
+                                                <div
+                                                    class="d-sm-flex flex-column d-block justify-content-between my-3 my-sm-0 col-12 col-md-6">
+                                                    <label>Şəkli Faylı</label>
+                                                    <div class="custom-file">
+                                                        <input type="file" name="imageFile" class="custom-file-input">
+                                                        <label class="custom-file-label">Fayl seç</label>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="d-sm-flex flex-column d-block justify-content-between my-3 my-sm-0 col-12 col-md-6">
+                                                    <label>Musiqi Faylı</label>
+                                                    <div class="custom-file">
+                                                        <input type="file" name="musicFile" class="custom-file-input">
+                                                        <label class="custom-file-label">Fayl seç</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>Adı</label>
+                                        <input type="text" name="firstName" class="form-control"
+                                            placeholder="Musiqi Adı">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>ISRC</label>
+                                        <input type="text" name="isrc" class="form-control" placeholder="ISRC kodu">
+                                    </div>
+                                    <div class="form-group col-md-8">
+                                        <label>Janr</label>
+                                        <select class="form-control" name="genre" id="genreSelect">
+                                            <option>Hip Hop</option>
+                                            <option>Pop</option>
+                                            <option>Rock</option>
+                                            <option>Classic</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Status</label>
+                                        <select class="form-control" name="status" id="statusSelect">
+                                            <option>Online</option>
+                                            <option>Offline</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-12 col-md-8">
+                                        <label>Lyrics</label>
+                                        <textarea class="form-control" placeholder="Musiqinin sözləri..." rows="4"
+                                            id="lyrics" name="lyrics"></textarea>
+                                    </div>
+                                    <div class="form-group col-12 col-md-4">
+                                        <label>Qiymət</label>
+                                        <div class="col-12 row">
+                                            <input type="number" class="form-control col-6">
+                                            <div class="input-group-append col-6">
+                                                <select name="cost" id="costSelect">
+                                                    <option value="dollar">USD($)</option>
+                                                    <option value="azn">AZN(₼)</option>
+                                                    <option value="lira">LİRA(₺)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h4 class="card-title">Feat</h4>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table
+                                                        class="table table-bordered verticle-middle table-responsive-sm">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Profil</th>
+                                                                <th scope="col">Artist Adı</th>
+                                                                <th scope="col">Əməliyyatlar</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="edit-feat-tbody">
+                                                            <tr>
+                                                                <td><img src="/images/profile/6.jpg" alt=""></td>
+                                                                <td>Artist1</td>
+                                                                <td>
+                                                                    <span>
+                                                                        <a href="javascript:void()"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Close"><i
+                                                                                class="fa fa-close color-danger"></i></a>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img src="/images/profile/5.jpg" alt=""></td>
+                                                                <td>Artist2</td>
+                                                                <td><span><a href="javascript:void()"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Close"><i
+                                                                                class="fa fa-close color-danger"></i></a></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img src="/images/profile/6.jpg" alt=""></td>
+                                                                <td>Artist3</td>
+                                                                <td><span><a href="javascript:void()"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Close"><i
+                                                                                class="fa fa-close color-danger"></i></a></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img src="/images/profile/5.jpg" alt=""></td>
+                                                                <td>Artist4</td>
+                                                                <td><span><a href="javascript:void()"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Close"><i
+                                                                                class="fa fa-close color-danger"></i></a></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img src="/images/profile/6.jpg" alt=""></td>
+                                                                <td>Artist5</td>
+                                                                <td><span><a href="javascript:void()"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Close"><i
+                                                                                class="fa fa-close color-danger"></i></a></span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="d-flex flex-row justify-content-end mt-2">
+                                                    <select name="newFeatArtist" id="newFeatArtist">
+                                                        <option value="artistId">Artist1</option>
+                                                        <option value="artistId">Artist2</option>
+                                                        <option value="artistId">Artist3</option>
+                                                        <option value="artistId">Artist4</option>
+                                                        <option value="artistId">Artist5</option>
+                                                        <option value="artistId">Artist6</option>
+                                                    </select>
+                                                    <button class="btn btn-success ml-1" type="button">Əlavə et</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Yenilə</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
