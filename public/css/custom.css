@@ -1,0 +1,17 @@
+.custom-login-button {
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    border: 0;
+    transition: 0.4s;
+}
+
+.custom-input-border:focus {
+    border: 1px solid #b4b4b4;
+}
+
+@media screen and (max-width: 1200px) {
+    .wibty-brand-text {
+        display: none;
+    }
+}
