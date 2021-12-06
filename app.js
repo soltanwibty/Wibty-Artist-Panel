@@ -19,14 +19,14 @@ const fileStoreOptions = {
     path: path.join(__dirname, 'sessions')
 }
 
-// Session
-app.use(session({
-    name: process.env.SESSION_NAME,
-    saveUninitialized: true,
-    resave: true,
-    secret: process.env.SESSION_SECRET_KEY,
-    store: new FileStore(fileStoreOptions)
-}))
+// // Session
+// app.use(session({
+//     name: process.env.SESSION_NAME,
+//     saveUninitialized: true,
+//     resave: true,
+//     secret: process.env.SESSION_SECRET_KEY,
+//     store: new FileStore(fileStoreOptions)
+// }))
 
 // Middlewares
 app.use(express.urlencoded({ extended: true }));

@@ -15,6 +15,7 @@
     <!-- Custom Stylesheet -->
     <link href="/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
 
 </head>
@@ -612,7 +613,15 @@
                                 <li><a href="/music/stats/one">- Tək Musiqi</a></li>
                             </ul>
                         </li>
-                        <li><a href="/album/stats">Albomlar</a></li>
+                        <li>
+                            <a class="has-arrow ai-icon" href="/album/stats/all" aria-expanded="false">
+                                <span class="nav-text">Albom</span>
+                            </a>
+                            <ul aria-expanded="false" class="mm-collapse" style="height: 16px;">
+                                <li><a href="/album/stats/all">- Bütün Albomlar</a></li>
+                                <li><a href="/album/stats/one">- Tək Albom</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/sales/stats" class="disabled">Satışlar</a></li>
                     </ul>
                 </li>
